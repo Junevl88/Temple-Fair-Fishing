@@ -1,0 +1,1167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TFF </name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>3gu0m1yiq531g</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Fish">
+            <object-type name="LittleNemo" sid="722918058668038">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="913730014958069">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570669841261315" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="littleturtle" sid="630805293330345">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="915374684719337">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="652685237998325" speed="5">
+                        <frame duration="1" hotspotX="0.500956" hotspotY="0.50137" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Nemo" sid="701650157039903">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="146042475396852">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="fish01_left" pingpong="0" repeatcount="1" repeatto="0" sid="660196875508930" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish01_right" pingpong="0" repeatcount="1" repeatto="0" sid="961192056109766" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish01_up" pingpong="0" repeatcount="1" repeatto="0" sid="506117911971353" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish01_down" pingpong="0" repeatcount="1" repeatto="0" sid="218550626289292" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LittleDory" sid="107461323120079">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="188590044786765">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="fish02_left" pingpong="0" repeatcount="1" repeatto="0" sid="914165731080107" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish02_right" pingpong="0" repeatcount="1" repeatto="0" sid="653975395468981" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish02_up" pingpong="0" repeatcount="1" repeatto="0" sid="813496261326477" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish02_down" pingpong="0" repeatcount="1" repeatto="0" sid="540071992410944" speed="5">
+                        <frame duration="1" hotspotX="2" hotspotY="1">
+                            <collision-poly>
+                                <point x="0.4207" y="0.343558" />
+                                <point x="1" y="0.0163599" />
+                                <point x="1" y="0.768916" />
+                                <point x="1" y="0.999318" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0.626044" y="1" />
+                                <point x="0.0918196" y="0.999318" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LittleYellow" sid="575232347038692">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="717748903599978">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="254898415699117" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500337" original-source="C:\Users\junej\Documents\June\Game Design\yellow fishy.png">
+                            <collision-poly>
+                                <point x="0.168809" y="0.265678" />
+                                <point x="0.5" y="0.028321" />
+                                <point x="0.796487" y="0.320297" />
+                                <point x="0.830334" y="0.499663" />
+                                <point x="0.855184" y="0.772084" />
+                                <point x="0.5" y="0.94673" />
+                                <point x="0.142245" y="0.776129" />
+                                <point x="0.00599829" y="0.499663" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="uselessturtle" sid="160879438029755">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211647399384411" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" original-source="C:\Users\junej\Documents\June\Game Design\Fish Sprite Sheet.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0" y="0" />
+                                <point x="0.935484" y="0" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Yellow" sid="240253792261633">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="457011992835001">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="623463762012766" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="409650152575851" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="4" loop="1" name="Animation3" pingpong="0" repeatcount="1" repeatto="0" sid="352791159536094" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation4" pingpong="0" repeatcount="1" repeatto="0" sid="870048020382694" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UselessNemo" sid="553904639818571">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="302024438774878" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" original-source="C:\Users\junej\Documents\June\Game Design\Fish Sprite Sheet.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.997492" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0.997492" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UselessDory" sid="965601025809998">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="487413788866869" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" original-source="C:\Users\junej\Documents\June\Game Design\Fish Sprite Sheet.png">
+                            <collision-poly>
+                                <point x="0" y="0.276413" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Turtle" sid="752400827028815">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="685575264494337">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723260672850313" speed="7">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="583632884072945" speed="6">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation3" pingpong="0" repeatcount="1" repeatto="0" sid="922792063751835" speed="6">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation4" pingpong="0" repeatcount="1" repeatto="0" sid="832196673780762" speed="6">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation5" pingpong="0" repeatcount="1" repeatto="0" sid="459858940841695" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation8" pingpong="0" repeatcount="1" repeatto="0" sid="457126166692883" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation6" pingpong="0" repeatcount="1" repeatto="0" sid="238593869354444" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation7" pingpong="0" repeatcount="1" repeatto="0" sid="411879378659692" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UselessYellow" sid="295489333313483">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247821246863773" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" original-source="C:\Users\junej\Documents\June\Game Design\Fish Sprite Sheet.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Dory" sid="218096147070592">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="338249376226147">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="fish02_left" pingpong="0" repeatcount="1" repeatto="0" sid="411945704071748" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish02_right" pingpong="0" repeatcount="1" repeatto="0" sid="749421395633731" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish02_up" pingpong="0" repeatcount="1" repeatto="0" sid="349784351665118" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="fish02_down" pingpong="0" repeatcount="1" repeatto="0" sid="208204184508017" speed="5">
+                        <frame duration="1" hotspotX="2" hotspotY="1">
+                            <collision-poly>
+                                <point x="0.4207" y="0.343558" />
+                                <point x="1" y="0.0163599" />
+                                <point x="1" y="0.768916" />
+                                <point x="1" y="0.999318" />
+                                <point x="1" y="1" />
+                                <point x="1" y="1" />
+                                <point x="0.626044" y="1" />
+                                <point x="0.0918196" y="0.999318" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Yellow2" sid="718730501004358">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="593610246046885">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="982352943101888" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="571248511013067" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                    </animation>
+                    <animation framecount="4" loop="1" name="Animation3" pingpong="0" repeatcount="1" repeatto="0" sid="759985510489582" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation4" pingpong="0" repeatcount="1" repeatto="0" sid="159539097417994" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Turtle2" sid="627711962014384">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Bullet" sid="141122715660901">
+                        <behavior id="Bullet" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="725477255910914" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="187990725850577" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation3" pingpong="0" repeatcount="1" repeatto="0" sid="940788192623691" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation4" pingpong="0" repeatcount="1" repeatto="0" sid="596305192500045" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation5" pingpong="0" repeatcount="1" repeatto="0" sid="814143463169464" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation8" pingpong="0" repeatcount="1" repeatto="0" sid="186220945762362" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation6" pingpong="0" repeatcount="1" repeatto="0" sid="430300462560406" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="3" loop="1" name="Animation7" pingpong="0" repeatcount="1" repeatto="0" sid="190803551840338" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Text">
+            <object-folder name="Still Text">
+                <object-type name="1Point" sid="610249087110999">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="2Point" sid="154861986723706">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="4Points" sid="631797944013867">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Level1" sid="773943757914375">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-type name="Continue" sid="970394994930685">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="GameOver" sid="506877788706020">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="LevelText" sid="482739639425410">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="NextLevel" sid="688059088834740">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="gobacktoMM" sid="797862189947357">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="HowToPlay" sid="493718138669885">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Goback" sid="994369154796130">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="DorysCaught" sid="515583990504886">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Help" sid="924325517569999">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Obj4LvL1" sid="766270094780624">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="ObjLvL3" sid="995792767711240">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="NemosCaught" sid="232423957106078">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Obj4LvL2" sid="624140122008782">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Overview" sid="651537805478157">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="RestartGame" sid="313647142827011">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Score" sid="918572659873525">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="YellowsCaught" sid="586969255862260">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text" sid="755869334804695">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text6" sid="720087343740690">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text2" sid="735920729594746">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text4" sid="239639884316514">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text5" sid="143992414531149">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Text3" sid="963190809868897">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TurtlesCaught2" sid="285789645761326">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TurtlesCaught" sid="745288454910498">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TitleText" sid="648018672448464">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="YellowCaught" sid="360473342744085">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="totaltext" sid="577860631327005">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="TotalPL" sid="889370718902258">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Total" sid="905649875825884">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Scooper">
+            <object-type name="ss" sid="611620193896074">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Health" sid="282022777549337" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="8Direction" sid="355238443471586">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="297128678508882">
+                        <behavior id="bound" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381750285419553" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\paper scooper test.png">
+                            <collision-poly>
+                                <point x="0.304688" y="0.304688" />
+                                <point x="0.5" y="0.259766" />
+                                <point x="0.623047" y="0.376953" />
+                                <point x="0.625" y="0.5" />
+                                <point x="0.591797" y="0.574219" />
+                                <point x="0.5" y="0.626953" />
+                                <point x="0.375" y="0.625" />
+                                <point x="0.255859" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Wscooper" sid="796362913003781">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="8Direction" sid="637008197834394">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="844197633821110">
+                        <behavior id="bound" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161974099846229" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\paper scooper test.png">
+                            <collision-poly>
+                                <point x="0.304688" y="0.304688" />
+                                <point x="0.5" y="0.259766" />
+                                <point x="0.623047" y="0.376953" />
+                                <point x="0.625" y="0.5" />
+                                <point x="0.591797" y="0.574219" />
+                                <point x="0.5" y="0.626953" />
+                                <point x="0.375" y="0.625" />
+                                <point x="0.255859" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="WhiteTear2" sid="578106927644121">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="8Direction" sid="619293894032422">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="767010772454415">
+                        <behavior id="bound" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="187257068805840" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\paper scooper test.png">
+                            <collision-poly>
+                                <point x="0.304688" y="0.304688" />
+                                <point x="0.5" y="0.259766" />
+                                <point x="0.623047" y="0.376953" />
+                                <point x="0.625" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.626953" />
+                                <point x="0.375" y="0.625" />
+                                <point x="0.255859" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="WhiteTear" sid="660208131977043">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="8Direction" sid="521194263929754">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="837125253373227">
+                        <behavior id="bound" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432007065102704" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\paper scooper test.png">
+                            <collision-poly>
+                                <point x="0.304688" y="0.304688" />
+                                <point x="0.5" y="0.259766" />
+                                <point x="0.623047" y="0.376953" />
+                                <point x="0.625" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.626953" />
+                                <point x="0.375" y="0.625" />
+                                <point x="0.255859" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="WhiteTear3" sid="906057118709892">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="8Direction" sid="227257983776590">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                    <behavior-type name="BoundToLayout" sid="967189640563422">
+                        <behavior id="bound" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181103904294965" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\paper scooper test.png">
+                            <collision-poly>
+                                <point x="0.304688" y="0.304688" />
+                                <point x="0.5" y="0.259766" />
+                                <point x="0.623047" y="0.376953" />
+                                <point x="0.625" y="0.5" />
+                                <point x="0.742188" y="0.742188" />
+                                <point x="0.5" y="0.626953" />
+                                <point x="0.375" y="0.625" />
+                                <point x="0.255859" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Pool">
+            <object-type name="circle" sid="790213966439483">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="radius" sid="224045639862049" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="327831538317051">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="495792858416295" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="circle3" sid="398461365465297">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="radius" sid="354556819804150" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="911537220626644">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="793011648518979" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="circle4" sid="842187983061867">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="radius" sid="231177298921782" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="788470533474817">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427087587977855" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="circle2" sid="240586805884661">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="radius" sid="394116634124984" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="872312309792923">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454089784666107" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Mystery">
+            <object-type name="Mystery1" sid="488477180391256">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="784683728366924" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Mystery3" sid="457435027047095">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="800500188382190" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Mystery4" sid="769640228066739">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="481045511397050" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Mystery2" sid="163587640839856">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="178106342207003" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Mystery5" sid="386779881673428">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974914242884461" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite9" sid="643344672469736">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="763002117881493" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500337" original-source="C:\Users\junej\Documents\June\Game Design\yellow fishy.png">
+                            <collision-poly>
+                                <point x="0.994002" y="0.499663" />
+                                <point x="0.857755" y="0.776129" />
+                                <point x="0.5" y="0.94673" />
+                                <point x="0.144816" y="0.772084" />
+                                <point x="0.169666" y="0.499663" />
+                                <point x="0.203513" y="0.320297" />
+                                <point x="0.5" y="0.028321" />
+                                <point x="0.831191" y="0.265678" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="TiledBackground4" sid="830048668037978">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite4" sid="684583988760737">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="747768718845678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500835" original-source="C:\Users\junej\Documents\June\Game Design\white box.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="345668178685538">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247280125877947" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.265734" original-source="C:\Users\junej\Documents\June\Game Design\fish bowl 02.png">
+                        <collision-poly>
+                            <point x="0.121875" y="0.0699301" />
+                            <point x="0.5" y="0.0011655" />
+                            <point x="0.885938" y="0.0909091" />
+                            <point x="0.992188" y="0.238928" />
+                            <point x="0.928906" y="0.381119" />
+                            <point x="0.521875" y="0.585082" />
+                            <point x="0.141406" y="0.472028" />
+                            <point x="0.0109375" y="0.257576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="147453094485753">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665950498231156" speed="5">
+                    <frame duration="1" hotspotX="1.32663" hotspotY="0.961783" original-source="C:\Users\junej\Pictures\person sitting top view.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="755145103822430">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990517821578588" speed="5">
+                    <frame duration="1" hotspotX="1.32663" hotspotY="0.961783" original-source="C:\Users\junej\Pictures\person sitting top view.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="490374068349524">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912778099955348" speed="5">
+                    <frame duration="1" hotspotX="1.32663" hotspotY="0.961783" original-source="C:\Users\junej\Pictures\person sitting top view.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="913966236112201">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="400207483198164">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\junej\Documents\June\Game Design\Pics for TFF\temple.jpg" />
+        </object-type>
+        <object-type name="Sprite7" sid="583285928556283">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344237733787156" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="557738455459460">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="285306995549068" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\Pics for TFF\monk.jpg">
+                        <collision-poly>
+                            <point x="0.0807292" y="0.00416667" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="983119221737329">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279935702304044" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite20" sid="455758961412804">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686167502956766" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Pictures\water.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="398454135179611">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588733569677733" speed="5">
+                    <frame duration="1" hotspotX="0.649872" hotspotY="0.789948" original-source="C:\Users\junej\Pictures\TFF BG01.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="709735158701705">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="656967062359222" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text7" sid="439458086768387">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text8" sid="559928550621308">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite6" sid="199910200480189">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452422232672633" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\junej\Documents\June\Game Design\TFF trophy.png">
+                        <collision-poly>
+                            <point x="0.04" y="0.04" />
+                            <point x="0.5" y="0.08" />
+                            <point x="0.96" y="0.04" />
+                            <point x="0.76" y="0.5" />
+                            <point x="0.64" y="0.64" />
+                            <point x="0.5" y="0.96" />
+                            <point x="0.36" y="0.64" />
+                            <point x="0.24" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="132080053109524">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780791728867345" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502857" original-source="C:\Users\junej\Documents\June\Game Design\tffwin.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="603768755397853">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686462560442584" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="682347557258316">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236510147783408" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="182288869232993">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514398758042238" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="815609070369952">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="212548679108782" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="365594141876538">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758228581844815" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="746729085003657">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite19" sid="507980530316760">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="103838009329410" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="831838167722877">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="938992284144246" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="FishLvL1" plugin-id="Sprite" sid="622514082306773">
+            <members>
+                <member>Dory</member>
+                <member>Nemo</member>
+            </members>
+        </family>
+        <family name="White" plugin-id="Sprite" sid="550133172817165">
+            <members>
+                <member>WhiteTear</member>
+                <member>WhiteTear2</member>
+                <member>WhiteTear3</member>
+                <member>Wscooper</member>
+            </members>
+        </family>
+        <family name="WhiteU" plugin-id="Sprite" sid="173344777776900">
+            <members>
+                <member>WhiteTear</member>
+                <member>Wscooper</member>
+            </members>
+        </family>
+        <family name="FishLvL2" plugin-id="Sprite" sid="807604215146670">
+            <members>
+                <member>Dory</member>
+                <member>Nemo</member>
+                <member>Yellow</member>
+            </members>
+        </family>
+        <family name="FishLvl4" plugin-id="Sprite" sid="185735501556736">
+            <members>
+                <member>Turtle</member>
+                <member>Yellow</member>
+            </members>
+        </family>
+        <family name="FishLvL5" plugin-id="Sprite" sid="904025625382337">
+            <members>
+                <member>Dory</member>
+                <member>Nemo</member>
+                <member>Turtle</member>
+                <member>Yellow</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Game Layout.xml</layout>
+        <layout>Win.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
+        <layout>Level 4.xml</layout>
+        <layout>Level 5.xml</layout>
+        <layout>Lose.xml</layout>
+        <layout>Overview HTP.xml</layout>
+        <layout>Start Layout.xml</layout>
+        <layout>End.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Game Event Sheet.xml</event-sheet>
+        <event-sheet>Start Event Sheet.xml</event-sheet>
+        <event-sheet>Overview HTP Event Sheet.xml</event-sheet>
+        <event-sheet>Lose Event Sheet.xml</event-sheet>
+        <event-sheet>Level 2 Event Sheet.xml</event-sheet>
+        <event-sheet>Level 3 Event Sheet.xml</event-sheet>
+        <event-sheet>Level 4 Event sheet.xml</event-sheet>
+        <event-sheet>Level 5 Event Sheet.xml</event-sheet>
+        <event-sheet>Win Event Sheet.xml</event-sheet>
+        <event-sheet>GlobalVar.xml</event-sheet>
+        <event-sheet>Essentials Lvl 1-5.xml</event-sheet>
+        <event-sheet>End.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="33" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
